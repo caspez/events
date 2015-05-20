@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/monthViewMenu"
+    tools:context="com.casperszj.events.WeekViewActivity" >
+
+
+    <item
+        android:id="@+id/action_addEvent"
+        android:showAsAction="ifRoom"
+        android:title="@string/title_activity_add_event"/>
+    <item
+        android:id="@+id/action_listView"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_listView"/>
+
+
+</menu>

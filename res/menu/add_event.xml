@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.casperszj.events.AddEventActivity" >
+
+    <item
+        android:id="@+id/action_saveAddEvent"
+        android:showAsAction="ifRoom"
+        android:title="@string/saveAddEvent"/>
+    <item
+        android:id="@+id/action_cancelAddEvent"
+        android:showAsAction="ifRoom"
+        android:title="@string/cancelEvent"/>
+    <item
+        android:id="@+id/action_deleteAddEvent"
+        android:showAsAction="never"
+        android:title="@string/delete"/>
+
+</menu>

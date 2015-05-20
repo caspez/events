@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Events</string>
+    <string name="title_activity_add_event">Add Event</string>
+    <string name="no_events">No events created</string>
+    <string name="action_listView">List</string>
+    <string name="action_monthView">Calendar</string>
+    <string name="action_settings">Settings</string>
+    <string name="event_title">Title</string>
+    <string name="event_date" Date="" ZStarting=""></string>
+    <string name="location">Location</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="notes">Notes</string>
+    <string name="starting_date_time">Starting date and time</string>
+    <string name="ending_date_time">Ending date and time</string>
+    <string name="starting_date">Starting Date</string>
+    <string name="venue">Venue</string>
+    <string name="cancelEvent">Cancel</string>
+    <string name="saveAddEvent">Save</string>
+    <string name="attendee_list">Attendee List</string>
+    <string name="no_email">no email</string>
+    <string name="add_attendee">Add Attendee</string>
+    <string name="attendees">- attendees</string>
+    <string name="noAttendees">No attendees added</string>
+    <string name="addedAttendee">Added attendee</string>
+    <string name="blankAttendee">Cannot add attendee without email</string>
+    <string name="addedEvent">Added new event</string>
+    <string name="editedEvent">Edited event</string>
+    <string name="deletedEvent">Deleted event</string>
+    <string name="didNotAddEvent">No event added/edited</string>
+    <string name="blankTitle">Title cannot be blank</string>
+    <string name="removeAttendee">Remove Attendee</string>
+    <string name="editEvent">Edit Event</string>
+    <string name="delete">Delete event</string>
+    <string name="previous_month">Previous Month</string>
+    <string name="next_month">Next Month</string>
+    <string name="voice_note">Voice Note</string>
+    <string name="playVoiceNote">Play</string>
+    <string name="recordVoiceNote">Record</string>
+    <string name="stopVoiceNote">Stop</string>
+    <string name="get_latitude_longitude">Get Latitude/Longitude</string>
+    <string name="toast_geocoder_success">Successfully located</string>
+    <string name="toast_geocoder_fail">Unable to get latitude/longitude</string>
+
+</resources>

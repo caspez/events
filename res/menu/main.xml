@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.casperszj.events.MainActivity" >
+
+    <item
+        android:id="@+id/action_addEvent"
+        android:showAsAction="ifRoom"
+        android:title="@string/title_activity_add_event"/>
+    <item
+        android:id="@+id/action_monthView"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_monthView"/>
+
+</menu>

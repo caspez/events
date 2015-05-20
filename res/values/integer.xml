@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="ems_title">10</integer>
+    <integer name="button_weight">1</integer>
+    <integer name="grid_num_columns">7</integer>
+
+</resources>

@@ -1,0 +1,218 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:fillViewport="true"
+    tools:context="com.casperszj.events.view.AddEventActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/event_title"
+            android:textSize="@dimen/defualtStaticTextSize" />
+
+        <EditText
+            android:id="@+id/addTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="@integer/ems_title"
+            android:hint="@string/event_title"
+            android:singleLine="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacer" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/starting_date_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/starting_date_time"
+                android:textSize="@dimen/defualtStaticTextSize" />
+
+            <Button
+                android:id="@+id/startDate"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/starting_date_time"
+                android:layout_toLeftOf="@+id/startTime"
+                android:layout_toStartOf="@+id/startTime" />
+
+            <Button
+                android:id="@id/startTime"
+                android:layout_width="@dimen/time_width"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/starting_date_time" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacer" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/ending_date_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ending_date_time"
+                android:textSize="@dimen/defualtStaticTextSize" />
+
+            <Button
+                android:id="@+id/endDate"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/ending_date_time"
+                android:layout_toLeftOf="@+id/endTime"
+                android:layout_toStartOf="@+id/endTime" />
+
+            <Button
+                android:id="@id/endTime"
+                android:layout_width="@dimen/time_width"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/ending_date_time" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacer" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/venue"
+            android:textSize="@dimen/defualtStaticTextSize" />
+
+        <EditText
+            android:id="@+id/addVenue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="@integer/ems_title"
+            android:hint="@string/venue"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/get_latitude_longitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/get_latitude_longitude" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/latitude"
+            android:textSize="@dimen/defualtStaticTextSize" />
+
+        <EditText
+            android:id="@+id/addLatitude"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="@integer/ems_title"
+            android:hint="@string/latitude"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/longitude"
+            android:textSize="@dimen/defualtStaticTextSize" />
+
+        <EditText
+            android:id="@+id/addLongitude"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="@integer/ems_title"
+            android:hint="@string/longitude"
+            android:singleLine="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacer" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notes"
+            android:textSize="@dimen/defualtStaticTextSize" />
+
+        <EditText
+            android:id="@+id/addNote"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="@integer/ems_title"
+            android:hint="@string/notes"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/attendee_list"
+            android:textSize="@dimen/defualtStaticTextSize" />
+
+        <LinearLayout
+            android:id="@+id/attendeeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <Button
+            android:id="@+id/addAttendee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_attendee" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/voice_note"
+            android:textSize="@dimen/defualtStaticTextSize" />
+
+        <LinearLayout
+            android:id="@+id/voiceNoteButtons"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/playNote"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight="@integer/button_weight"
+                android:text="@string/playVoiceNote" />
+
+            <Button
+                android:id="@+id/recordNote"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight="@integer/button_weight"
+                android:text="@string/recordVoiceNote" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
